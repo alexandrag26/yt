@@ -29,6 +29,7 @@ label{
 }
 .container2{
     text-align: center;
+    background-color: #d47070;
 }
 #p5 {
     position: relative;
@@ -39,5 +40,9 @@ label{
 #p6 {
     position: relative;
     right: 15%;
+     
 }
 
+.navbar{
+    background-color: #d47070;
+}
