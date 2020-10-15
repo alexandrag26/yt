@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <title>Youtube</title>
 </head>
 <header>
     <div id="logotipo">
         <img src="img/logo.png" width="200" height="200"
         alt="Haz clic aquí para volver a la página de inicio">
-   </div>
+        
+   </div >
         <h1>¡Busca la informacion de tu video aqui!</h1>
 
 </header>
@@ -19,21 +23,21 @@
 
     <div class = "row_container">
 
-        <input type="text" id="buscar" oninput = "Mas()">
-        <button onclick = "youtube()"> Aceptar </button>
+        <input type="text" id="buscar" oninput="mas()">
+        <button onclick="youtube()"> Buscar </button> <br>
 
     </div>
-
 
     
 
-<div id = contenedor>
-    <div row>
-        <div id= "canal"> </div>
-        <div id = "video"> </div>
-
+    <div id="contenedor" class="container d-flex justify-content-center pr-3 pl-3">
+        <div>
+            <div id="canal">
+            </div>
+            <div id="video">
+            </div>
+        </div>
     </div>
-</div>
 
 
     <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
@@ -46,9 +50,9 @@
 <footer>
     <div class = "container2">
 
-        <nav class = "nav">
-        <button><a href="home.html">Home</a> </button>
-        <button><a href="youtube.html">Youtube</a></button>
+        <nav class = "navbar navbar-light bg-light navbar fixed-bottom border-bottom-0 ">
+        <a class="btn-lg" href="home.html" id="p5">Home</a>
+        <a class="btn-lg" href="youtube.html" id="p6">Youtube</a>
 
         </nav>
 

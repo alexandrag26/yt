@@ -8,6 +8,10 @@ header{
 footer{
     margin-top: 16%;
 }
+label{
+    font-weight: bold;
+    text-align: center;
+}
 
 .nav {
     background-color: #ffffff;
@@ -20,6 +24,20 @@ footer{
     font-size: 16px;
     width: 50%
 }
+.row_container{
+    padding: 15px;
+}
 .container2{
     text-align: center;
 }
+#p5 {
+    position: relative;
+    left: 15%;   
+}
+
+
+#p6 {
+    position: relative;
+    right: 15%;
+}
+
